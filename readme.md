@@ -146,6 +146,40 @@
   ```
 
 
+# Para crear, moverse y mesclar ramas 
+Para crear rama:
+  ```bash
+  git branch nombre_rama
+  ```
+
+Para moverse  a una rama
+
+  ```bash
+  git checkout nombre_rama
+  ```
+Para mesclar ramas, primero ubicarse en la rama principal y luego apuntar con que rama mesclar
+
+  ```bash
+  git merge nombre_rama
+  ```
+
+# Para trabajar con github: actualizar, descargar y subir cambios
+Para actualizar cambios.
+
+  ```bash
+  git fetch
+  ```
+Para descargar cambios 
+
+  ```bash
+  git pull 
+  ```
+Para subir cambios 
+
+  ```bash
+  git push -u origin nombre_rama
+  ```
+
 
 
 
